@@ -4,6 +4,7 @@ class String
 
   def sentence?
     self.include?(".")
+    binding.pry
   end
 
   def question?
