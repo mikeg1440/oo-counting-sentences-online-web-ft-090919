@@ -3,12 +3,11 @@ require 'pry'
 class String
 
   def sentence?
-    self.include?(".")
-    binding.pry
+    self[-1] == "."
   end
 
   def question?
-
+    self[-1] == "?"
   end
 
   def exclamation?
